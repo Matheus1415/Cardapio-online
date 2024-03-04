@@ -9,7 +9,6 @@ export const Cardapio = () =>{
     const [busca, setBuscador] = useState("");
     const [filtro, setFiltro] = useState<number | null>(null);
     const [ordenador, setOrdenador] = useState("")
-    console.log(ordenador)
     return (
         <main>
             <nav className={style.menu}>
