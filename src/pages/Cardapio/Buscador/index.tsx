@@ -15,6 +15,7 @@ export const Buscador: React.FC<TipoPropBuscador> = ({ busca, setBuscador }) => 
                 name='buscador'
                 value={busca}
                 onChange={(evento) => setBuscador(evento.target.value)}
+                placeholder='Buscar'
             />
             <CgSearch />
         </div>
