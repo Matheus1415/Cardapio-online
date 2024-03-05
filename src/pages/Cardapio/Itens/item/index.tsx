@@ -4,14 +4,14 @@ import cardapio from './../itens.json'
 
 type Props = typeof cardapio[0]
 
-export const Item = (props: Props) => {
+export const Item = (props: Props, ) => {
 
-    const {title, description, category, size, serving, price} = props
+    const {title, description, category, size, serving, price, photo} = props
 
     return(
         <div className={styles.item}>
             <div className={styles.item__imagem}>
-                <img src={logo} alt={title} />
+                <img src={photo} alt={title} />
             </div>
             <div className={styles.item__descricao}>
                 <div className={styles.item__titulo}>
