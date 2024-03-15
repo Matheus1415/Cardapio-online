@@ -3,13 +3,14 @@ import style from './Prato.module.scss';
 import classNames from 'classnames';
 import cardapio from 'data/cardapio.json';
 import { TagsPrato } from 'components/TagsPrato';
+import { NotFound } from 'pages/NotFound';
 
 export const Prato = () => {
   const navigate = useNavigate();
   const { id } = useParams();
   const prato = cardapio.find(item => item.id === Number(id));
   if (!prato) {   
-    return '';
+    return <NotFound/>;
   }
 
   return (
