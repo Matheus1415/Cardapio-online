@@ -1,7 +1,6 @@
 @import "styles/variaveis";
 @import "styles/breakpoints";
 
-
 .cardapio {
   padding: 50px $padding-horizontal;
   @media (max-width: $desktop_xsm) {

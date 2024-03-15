@@ -1,27 +1,26 @@
-import cardapio from '../../data/cardapio.json';
-import style from './inicio.module.scss';
+import cardapio from 'data/cardapio.json';
+import styles from './Inicio.module.scss';
 
 export default function Inicio() {
-  let pratosRecomendado = [...cardapio];
-  pratosRecomendado = pratosRecomendado.sort(() => 0.5 - Math.random()).splice(0, 3);
-
+  let pratosRecomendados = [...cardapio];
+  pratosRecomendados = pratosRecomendados.sort(() => 0.5 - Math.random()).splice(0,3);
   return (
-    <>
-      <section className={style.titulo}>
-        <h3>Recomendações da cozinha</h3>
-        <div className={style.recomendados}>
-          {pratosRecomendado.map(item => (
-            <div className={style.recomendado} key={item.id}>
-              <div className={style.recomendado__imagem}>
-                <img src={item.photo} alt={item.title} />
-              </div>
-              <button className={style.recomendado__botao}>
-                Ver mais
-              </button>
+    <section>
+      <h3 className={styles.titulo}>
+        Recomendações da cozinha
+      </h3>
+      <div className={styles.recomendados}>
+        {pratosRecomendados.map(item => (
+          <div key={item.id} className={styles.recomendado}>
+            <div className={styles.recomendado__imagem}>
+              <img src={item.photo} alt={item.title} />
             </div>
-          ))}
-        </div>
-      </section>
-    </>
+            <button className={styles.recomendado__botao}>
+              Ver mais
+            </button>
+          </div>
+        ))}
+      </div>
+    </section>
   );
 }
