@@ -1,6 +1,6 @@
 # Restaurant App
 
-Este projeto foi iniciado com o ```bash
+Este projeto foi iniciado com o ```
     npm i
     ```
 
@@ -8,7 +8,7 @@ Este projeto foi iniciado com o ```bash
 
 O **Restaurant App** é uma aplicação web desenvolvida em React, que permite aos usuários visualizar e filtrar uma variedade de pratos de um restaurante.
 
-![Logo do Meu Projeto](https://github.com//Matheus1415/restaurante/raw/main/pasta-da-imagem/imagem.png)
+![Logo do Meu Projeto](https://github.com/Matheus1415/restaurante/blob/main/public/favicon.svg)
 
 ## Como Usar
 
