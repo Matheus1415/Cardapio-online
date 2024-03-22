@@ -27,7 +27,10 @@ O **Restaurant App** é uma aplicação web desenvolvida em React e TypeScript, 
     npm install
     ```
 
-3. Este projeto foi iniciado com o comando `npm start`.
+3. Este projeto foi iniciado com o comando
+   ```bash
+   npm start
+   ```.
 
 ### ⚙️ Dependências Adicionais
 
