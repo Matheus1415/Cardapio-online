@@ -12,7 +12,6 @@ O **Restaurant App** é uma aplicação web desenvolvida em React e TypeScript, 
 
 🖼️ **Capturas de Tela:**
 
-![Logo do Projeto](https://github.com/Matheus1415/restaurante/blob/main/public/favicon.svg)
 ![Foto da Página Inicial](https://github.com/Matheus1415/restaurante/blob/main/fotoReadm.png)
 
 ## 🚀 Como Usar
