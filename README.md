@@ -28,9 +28,9 @@ O **Restaurant App** é uma aplicação web desenvolvida em React e TypeScript, 
     ```
 
 3. Este projeto foi iniciado com o comando
-   ```bash
-   npm start
-   ```.
+    ```bash
+    npm start
+    ```
 
 ### ⚙️ Dependências Adicionais
 
@@ -46,8 +46,8 @@ Este projeto também utiliza as seguintes dependências:
 ```
 
 
-###🛠️ Tecnologias Utilizadas
-![React](https://img.shields.io/badge/React-222?style=for-the-badge&logo=react&logoColor=61DBFB&labelColor=222) </br>
+###🛠️ Tecnologias Utilizadas  </br>
+![React](https://img.shields.io/badge/React-222?style=for-the-badge&logo=react&logoColor=61DBFB&labelColor=222)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3276E6?style=for-the-badge&logo=typescript&logoColor=white&labelColor=3276E6)
 
 
