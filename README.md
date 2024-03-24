@@ -47,7 +47,7 @@ Este projeto também utiliza as seguintes dependências:
 "sass": "^1.49.0",
 "typescript-plugin-css-modules": "^3.4.0"
 
-###🛠️ Tecnologias Utilizadas
+### 🛠️ Tecnologias Utilizadas
 
 </br> [React](https://pt-br.legacy.reactjs.org/docs/getting-started.html) 
 </br> [TypeScript](https://www.typescriptlang.org/pt/docs/)
