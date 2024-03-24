@@ -45,19 +45,16 @@ Este projeto também utiliza as seguintes dependências:
 "typescript-plugin-css-modules": "^3.4.0"
 ```
 </br>
-###🛠️ Tecnologias Utilizadas
-</br>
-![React](https://img.shields.io/badge/React-222?style=for-the-badge&logo=react&logoColor=61DBFB&labelColor=222)
-![TypeScript](https://img.shields.io/badge/TypeScript-3276E6?style=for-the-badge&logo=typescript&logoColor=white&labelColor=3276E6)
+###🛠️ Tecnologias Utilizadas </br>
 
-</br>
+[React](https://pt-br.legacy.reactjs.org/docs/getting-started.html) </br>
+[TypeScript](https://www.typescriptlang.org/pt/docs/) </br>
+[Sass](https://sass-lang.com/documentation/) </br>
 
 ###📚 Aprenda Mais
 </br>
 Você pode aprender mais sobre as tecnologias utilizadas neste projeto nos seguintes links:
 
-[React](https://pt-br.legacy.reactjs.org/docs/getting-started.html) </br>
-[TypeScript](https://www.typescriptlang.org/pt/docs/) </br>
-[Sass](https://sass-lang.com/documentation/)
+
 
 
