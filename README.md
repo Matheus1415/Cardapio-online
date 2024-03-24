@@ -1,7 +1,7 @@
 # 🍽️ Restaurant App
-</br>
+
 ## 📝 Sobre o Projeto
-</br>
+
 O **Restaurant App** é uma aplicação web desenvolvida em React e TypeScript, que permite aos usuários visualizar e filtrar uma variedade de pratos de um restaurante. A aplicação apresenta várias páginas, incluindo:
 
 - **Página Inicial:** Exibe recomendações da casa.
@@ -17,17 +17,20 @@ O **Restaurant App** é uma aplicação web desenvolvida em React e TypeScript, 
 ### Instalação
 
 1. Clone o repositório:
+
     ```bash
     git clone https://github.com/seu-usuario/restaurant-app.git
     ```
 
 2. Instale as dependências:
+
     ```bash
     cd restaurant-app
     npm install
     ```
 
-3. Este projeto foi iniciado com o comando
+3. Este projeto foi iniciado com o comando:
+
     ```bash
     npm start
     ```
@@ -43,18 +46,10 @@ Este projeto também utiliza as seguintes dependências:
 "eslint-plugin-react": "^7.28.0",
 "sass": "^1.49.0",
 "typescript-plugin-css-modules": "^3.4.0"
-```
-</br>
-###🛠️ Tecnologias Utilizadas </br>
 
-[React](https://pt-br.legacy.reactjs.org/docs/getting-started.html) </br>
-[TypeScript](https://www.typescriptlang.org/pt/docs/) </br>
-[Sass](https://sass-lang.com/documentation/) </br>
+###🛠️ Tecnologias Utilizadas
 
-###📚 Aprenda Mais
-</br>
-Você pode aprender mais sobre as tecnologias utilizadas neste projeto nos seguintes links:
-
-
-
+</br> [React](https://pt-br.legacy.reactjs.org/docs/getting-started.html) 
+</br> [TypeScript](https://www.typescriptlang.org/pt/docs/)
+</br> [Sass](https://sass-lang.com/documentation/) 
 
