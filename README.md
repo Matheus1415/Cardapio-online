@@ -46,6 +46,7 @@ Este projeto também utiliza as seguintes dependências:
 "eslint-plugin-react": "^7.28.0",
 "sass": "^1.49.0",
 "typescript-plugin-css-modules": "^3.4.0"
+```
 
 ### 🛠️ Tecnologias Utilizadas
 
