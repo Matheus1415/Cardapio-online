@@ -1,7 +1,7 @@
 # 🍽️ Restaurant App
 </br>
 ## 📝 Sobre o Projeto
-
+</br>
 O **Restaurant App** é uma aplicação web desenvolvida em React e TypeScript, que permite aos usuários visualizar e filtrar uma variedade de pratos de um restaurante. A aplicação apresenta várias páginas, incluindo:
 
 - **Página Inicial:** Exibe recomendações da casa.
@@ -44,7 +44,7 @@ Este projeto também utiliza as seguintes dependências:
 "sass": "^1.49.0",
 "typescript-plugin-css-modules": "^3.4.0"
 ```
-
+</br>
 ###🛠️ Tecnologias Utilizadas
 </br>
 ![React](https://img.shields.io/badge/React-222?style=for-the-badge&logo=react&logoColor=61DBFB&labelColor=222)
@@ -53,6 +53,7 @@ Este projeto também utiliza as seguintes dependências:
 </br>
 
 ###📚 Aprenda Mais
+</br>
 Você pode aprender mais sobre as tecnologias utilizadas neste projeto nos seguintes links:
 
 [React](https://pt-br.legacy.reactjs.org/docs/getting-started.html) </br>
