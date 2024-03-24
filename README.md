@@ -1,4 +1,4 @@
-# 🍽️ Restaurant App
+# 🍽️ Restaurant Web App
 
 ## 📝 Sobre o Projeto
 
