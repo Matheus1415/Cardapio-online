@@ -1,28 +1,34 @@
 import { Footer } from 'components/Footer';
 import Menu from 'components/Menu';
-import PaginaPadrao from 'components/PaginaPadrao';
-import { Prato } from 'components/Prato';
-import Cardapio from 'pages/Cardapio';
-import Inicio from 'pages/Inicio';
-import { NotFound } from 'pages/NotFound';
-import { Sobre } from 'pages/Sobre';
+import { Suspense, lazy } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
+//Import Dinamicos
+const Cardapio = lazy(() => import('pages/Cardapio'));
+const PaginaPadrao = lazy(() => import('components/PaginaPadrao'));
+const Inicio = lazy(() => import('pages/Inicio'));
+const NotFound = lazy(() => import('pages/NotFound'));
+const Sobre = lazy(() => import('pages/Sobre'));
+const Prato = lazy(() => import('components/Prato'));
+
 
 export default function AppRouter() {
   return (
     <main>
       <Router>
-        <Menu />
-        <Routes>
-          <Route path='/' element={<PaginaPadrao />} >
-            <Route index element={<Inicio />} />
-            <Route path='cardapio' element={<Cardapio />} />
-            <Route path='sobre' element={<Sobre/>}/>
-          </Route>
-          <Route path='*' element={<NotFound/>}/>
-          <Route path='prato/:id' element={<Prato/>}/>
-        </Routes>
-        <Footer/>
+        <Suspense fallback={<p>Carregando...</p>}>
+          <Menu />
+          <Routes>
+            <Route path='/' element={<PaginaPadrao />} >
+              <Route index element={<Inicio />} />
+              <Route path='cardapio' element={<Cardapio />} />
+              <Route path='sobre' element={<Sobre/>}/>
+            </Route>
+            <Route path='*' element={<NotFound/>}/>
+            <Route path='prato/:id' element={<Prato/>}/>
+          </Routes>
+          <Footer/>
+        </Suspense>
       </Router>
     </main>
   );

@@ -5,7 +5,7 @@ import cardapio from 'data/cardapio.json';
 import { TagsPrato } from 'components/TagsPrato';
 import { NotFound } from 'pages/NotFound';
 
-export const Prato = () => {
+const Prato = () => {
   const navigate = useNavigate();
   const { id } = useParams();
   const prato = cardapio.find(item => item.id === Number(id));
@@ -33,3 +33,5 @@ export const Prato = () => {
     </>
   );
 };
+
+export default Prato;

@@ -4,7 +4,7 @@ import casa from 'assets/sobre/casa.png';
 import massa1 from 'assets/sobre/massa1.png';
 import massa2 from 'assets/sobre/massa2.png';
 
-export const Sobre = () => {
+const Sobre = () => {
   const imagens = [massa1, massa2];
   return (
     <section>
@@ -33,3 +33,5 @@ export const Sobre = () => {
     </section>
   );
 };
+
+export default Sobre;
