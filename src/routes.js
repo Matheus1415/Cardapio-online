@@ -16,8 +16,8 @@ export default function AppRouter() {
   return (
     <main>
       <Router>
+        <Menu />
         <Suspense fallback={<p>Carregando...</p>}>
-          <Menu />
           <Routes>
             <Route path='/' element={<PaginaPadrao />} >
               <Route index element={<Inicio />} />
@@ -27,8 +27,8 @@ export default function AppRouter() {
             <Route path='*' element={<NotFound/>}/>
             <Route path='prato/:id' element={<Prato/>}/>
           </Routes>
-          <Footer/>
         </Suspense>
+        <Footer/>
       </Router>
     </main>
   );
