@@ -1,20 +1,20 @@
-# 🍽️ Restaurant Web App
 
+# 🍽️ Aplicativo Web para Restaurantes
 ## 📝 Sobre o Projeto
 
-O **Restaurant App** é uma aplicação web desenvolvida em React e TypeScript, que permite aos usuários visualizar e filtrar uma variedade de pratos de um restaurante. A aplicação apresenta várias páginas, incluindo:
+O Restaurant Web App é uma aplicação web desenvolvida com React e TypeScript , permitindo aos usuários explorar e filtrar uma variedade de pratos. A aplicação contém várias páginas dinâmicas para uma experiência intuitiva e envolvente:
 
-- **Página Inicial:** Exibe recomendações da casa.
-- **Página de Cardápio:** Permite filtrar por categorias como massa, carnes, entre outros.
-- **Página Sobre:** Fornece informações adicionais sobre o restaurante.
+- Página Inicial : Destaques e recomendações da casa.
+- Página de Cardápio : Permite filtragem por categorias como massas, carnes, entre outras.
+- Página Sobre : Informações atualizadas sobre o restaurante.
 
-🖼️ **Capturas de Tela:**
+## 🖼️ Capturas de Tela
 
-![Foto da Página Inicial](https://github.com/Matheus1415/restaurante/blob/main/fotoReadm.png)
+![Foto da Página Inicial](https://github.com/Matheus1415/restaurante/blob/main/aluroni01.png)
+![Foto da Página Inicial](https://github.com/Matheus1415/restaurante/blob/main/aluroni02.png)
+![Foto da Página Inicial](https://github.com/Matheus1415/restaurante/blob/main/aluroni03.png)
 
 ## 🚀 Como Usar
-
-### Instalação
 
 1. Clone o repositório:
 
@@ -35,22 +35,48 @@ O **Restaurant App** é uma aplicação web desenvolvida em React e TypeScript, 
     npm start
     ```
 
-### ⚙️ Dependências Adicionais
+## 📁 Estrutura do Projeto
 
-Este projeto também utiliza as seguintes dependências:
+```bash
+src/
+├── assets/           # Imagens, ícones e outros recursos estáticos.
+├── components/       # Componentes reutilizáveis da aplicação.
+├── data/             # Dados estáticos, como listas de pratos ou configurações.
+├── pages/            # Páginas principais da aplicação (Home, Cardápio, Sobre).
+├── style/            # Arquivos de estilo, como SCSS ou CSS Modules.
+├── types/            # Tipos e interfaces TypeScript usadas no projeto.
+├── App.tsx           # Componente principal da aplicação.
+├── index.tsx         # Ponto de entrada do React.
+└── reportWebVitals.ts # Configurações de performance.
 
-```json
-"@types/react-router-dom": "^5.3.3",
-"@typescript-eslint/eslint-plugin": "^5.12.1",
-"@typescript-eslint/parser": "^5.12.1",
-"eslint-plugin-react": "^7.28.0",
-"sass": "^1.49.0",
-"typescript-plugin-css-modules": "^3.4.0"
 ```
 
-### 🛠️ Tecnologias Utilizadas
+## ⚙️ Tecnologias Utilizadas
 
-</br> [React](https://pt-br.legacy.reactjs.org/docs/getting-started.html) 
-</br> [TypeScript](https://www.typescriptlang.org/pt/docs/)
-</br> [Sass](https://sass-lang.com/documentation/) 
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=js" alt="JavaScript" width="40" height="40">
+  <img src="https://skillicons.dev/icons?i=react" alt="React" width="40" height="40">
+  <img src="https://skillicons.dev/icons?i=ts" alt="TypeScript" width="40" height="40">
+  <img src="https://skillicons.dev/icons?i=sass" alt="Sass" width="40" height="40">
+</p>
 
+## 🤝 Contribuindo
+
+1. Faça um fork do repositório.
+
+2. Crie um branch para seu recurso
+
+    ```bash
+    git checkout -b ALR-feature-01
+    ```
+
+3. Este projeto foi iniciado com o comando:
+
+    ```bash
+    git commit -m "Adiciona nova funcionalidade"
+    ```
+4. Faça suas alterações:
+
+    ```bash
+    git push origin ALR-feature-01
+    ```
