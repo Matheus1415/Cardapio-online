@@ -60,6 +60,14 @@ src/
   <img src="https://skillicons.dev/icons?i=sass" alt="Sass" width="40" height="40">
 </p>
 
+- React : Biblioteca principal para construção da interface.
+- TypeScript : fornece tipagem estática para maior confiabilidade do código.
+- Sass : Pré-processador CSS para estilização avançada.
+- React Router : Gerenciamento de navegação e rotas dinâmicas.
+- Classnames : Manipulação simplificada de classes CSS.
+- Normalize.css : Estilização inicial consistente entre navegadores.
+- React Icons : Biblioteca de ícones para uma experiência visual aprimorada.
+
 ## 🤝 Contribuindo
 
 1. Faça um fork do repositório.
