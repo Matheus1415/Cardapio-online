@@ -11,8 +11,8 @@ O Restaurant Web App é uma aplicação web desenvolvida com React e TypeScript 
 ## 🖼️ Capturas de Tela
 
 ![Foto da Página Inicial](https://github.com/Matheus1415/restaurante/blob/main/aluroni01.png)
-![Foto da Página Inicial](https://github.com/Matheus1415/restaurante/blob/main/aluroni02.png)
-![Foto da Página Inicial](https://github.com/Matheus1415/restaurante/blob/main/aluroni03.png)
+![Foto da Página cardapio](https://github.com/Matheus1415/restaurante/blob/main/aluroni02.png)
+![Foto da Página de comida](https://github.com/Matheus1415/restaurante/blob/main/aluroni03.png)
 
 ## 🚀 Como Usar
 
